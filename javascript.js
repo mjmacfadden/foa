@@ -6,7 +6,7 @@ var arr = [
 
     //SEASON 01 EPISODE 04
     "<a href='https://twitter.com/kinsellawarren/status/1262956417817944064?s=20' target='_blank'>Uncle Bunky Obituary</a><br><span>S01E04</span>",
-    "<a href='https://www.motorola.com/we/smartphones-razr-5g' target='_blank'>Foldable Smartphones</a><br><span>S01E0</span>",
+    "<a href='https://www.motorola.com/we/smartphones-razr-5g' target='_blank'>Foldable Smartphones</a><br><span>S01E04</span>",
     "Becoming an Astronaut<br><span>S01E04</span>",
     "<a href='https://www.theragun.com/us/en-us/pro-us.html' target='_blank'>Theragun PRO</a><br><span>S01E04</span>",
     //SESAON 01 EPISODE 03
