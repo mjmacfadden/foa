@@ -11,7 +11,7 @@ var arr = [
     "TikTok<br><span>S01E02</span>",
     "<a href='https://www.imdb.com/title/tt1462764/' target='_blank'>Indiana Jones 5</a><br><span>S01E02</span>",
     //SESAON 01 EPISODE 0
-    "<a href='https://super73.com/' target='_blank'>Super 73 Electric Bike<br><span>S01E03</span>",
+    "<a href='https://super73.com/' target='_blank'>Super 73 Electric Bike</a><br><span>S01E03</span>",
     "Adults Who Drink Milk<br><span>S01E03</span>",
     "Self Driving Cars<br><span>S01E03</span>",
     "Professional Wrestling<br><span>S01E03</span>"
