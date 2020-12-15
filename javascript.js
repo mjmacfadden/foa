@@ -1,9 +1,40 @@
 var down = document.getElementById('topic');
 
 var arr = [
-    //"<a href='' target='_blank'></a><br><span>S01E0</span>",
-    //"<br><span>S01E0</span>",
+    //"<a href='' target='_blank'></a><br><span>S02E0</span>",
+    //"<br><span>S02E0</span>",
     
+    //SEASON 02 EPISODE 12
+    //SEASON 02 EPISODE 11
+    //SEASON 02 EPISODE 10
+    //SEASON 02 EPISODE 09
+    //SEASON 02 EPISODE 08
+    //SEASON 02 EPISODE 07
+    //SEASON 02 EPISODE 06
+    //SEASON 02 EPISODE 05
+    "<a href='https://www.rottentomatoes.com/' target='_blank'>Rotten Tomatoes</a><br><span>S02E05</span>",
+    "<a href='https://www.npr.org/2020/08/03/898496911/99-year-old-pilot-is-going-the-distance-for-2-world-records' target='_blank'>99 Year Old Pilots</a><br><span>S02E05</span>",
+    "<a href='https://www.amazon.com/Seen-Sam-6-Samurai-360-Knife/dp/B071NNVKRY' target='_blank'>Samurai 360 Rolling Knives</a><br><span>S02E05</span>",
+    //SEASON 02 EPISODE 04    
+    "Award Shows<br><span>S02E04</span>",
+    "David Blaine<br><span>S02E04</span>",
+    "Eradicating All Mosquitoes<br><span>S02E04</span>",
+    "<a href='https://get.reface.app/' target='_blank'>The Reface App</a><br><span>S02E0</span>",
+    //SEASON 02 EPISODE 03
+    "<a href='https://en.wikipedia.org/wiki/Bill_%26_Ted' target='_blank'>Bill and Ted</a><br><span>S02E03</span>",
+    "<a href='https://reviverestore.org/projects/woolly-mammoth/' target='_blank'>Reviving the Woolly Mamoth</a><br><span>S02E03</span>",
+    "House Cats<br><span>S02E0</span>",
+    "<a href='https://fb.watch/2oTB_bgaVW/' target='_blank'>Robot Surgeons</a><br><span>S02E03</span>",
+    //SEASON 02 EPISODE 02
+    "Lab Grown Meat<br><span>S02E02</span>",
+    "Conspiracy Theories<br><span>S02E02</span>",
+    "Manscaping<br><span>S02E02</span>",
+    "Longboarding In Your 30s<br><span>S02E02</span>",
+    //SEASON 02 EPISODE 01
+    "<a href='https://athome.starbucks.com/starbucks-fresh-brew-cans/' target='_blank'>Starbucks Fresh Brew Ground Coffee Cans</a><br><span>S02E01</span>",
+    "<a href='https://www.oregonlive.com/trending/2020/08/book-a-blockbuster-sleepover-in-bend-today-stay-in-the-worlds-only-surviving-be-kind-please-rewind-video-store.html' target='_blank'>A Sleepover at the Last Blockbuster</a><br><span>S02E01</span>",
+    "<a href='https://www.randonautica.com/' target='_blank'>Randonautica</a><br><span>S02E01</span>",
+    "<a href='https://www.cheetos.com/products/cheetos-mac-n-cheese-flamin-hot' target='_blank'>Flamin' Hot Cheetos Mac 'n Cheese</a><br><span>S02E01</span>",
     //SEASON 01 EPISODE 10
     "Hard Seltzers<br><span>S01E10</span>",
     "Smart Homes<br><span>S01E10</span>",
