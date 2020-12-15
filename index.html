@@ -1,80 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="For Or Against the Game">
-    <title>FOA | The Game</title>
+    <title>For Or Against</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="">
+    <link rel="icon" type="images/x-icon" href="img/favicon.png">
+    <link rel="icon" href="" sizes="32x32" />
+    <link rel="icon" href="" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png" />
 
-    <style>
-      *{
-        font-family:sans-serif;
-        text-align:center;
-      }
-      h1{
-        margin-top:50px;
-      }
-      p{
-        margin-top:100px;
-      }
-      p span{
-      color:#000000;
-      font-size:18px;
-    }
-      button{
-        background-color:#000000;
-        color:#FFFFFF;
-        font-size:24px;
-        font-weight:bold;
-        letter-spacing:2px;
-        border:0;
-        padding:10px 30px;
-        border-radius:5px;
-      }
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-      #topic{
-        font-size: 24px; 
-        font-weight: bold; 
-        color: grey;
-      }
-    </style>
+</head>
 
-  </head>
+<body>
+    <div class="wrapper">
+        
+        <h1>FOR OR <br><span>AGAINST</span></h1>
+        <h2 id="topic">
+            Ready?<br><span>click to play</span>
+        </h2>
 
-  <body>
-    <h1>  
-      FOR OR AGAINST  
-    </h1>  
+        <button id="button" onclick="Lets_Play()">
+            PLAY
+        </button>
+        <br>
+        <a class="pod" href=""><i class="fas fa-podcast"></i></a>
+        <a class="pod" href=""><i class="fab fa-spotify"></i></a>
+        
 
-    <p id="topic">  
-      Ready?
-    </p>  
+    </div>
+    <script src="javascript.js"></script>
+</body>
 
-    <button id="button" onclick="Lets_Play()">  
-      PLAY  
-    </button> 
-
-    <script>
-      var down = document.getElementById('topic');  
-
-    var arr = [
-      "The Eliptigo C3<br><span>S01E01</span>",
-      "Quarantine Haircuts<br><span>S01E01</span>",
-      "Sourdough Breadmaking<br><span>S01E01</span>",
-      "Bidets<br><span>S01E02</span>",
-      "Electricity Biscuits<br><span>S01E02</span>",
-      "TikTok<br><span>S01E02</span>",
-      "Indiana Jones 5<br><span>S01E02</span>",
-      "Super 73 Electric Bike<br><span>S01E03</span>",
-      "Adults Who Drink Milk<br><span>S01E03</span>",
-      "Self Driving Cars<br><span>S01E03</span>",
-      "Professional Wrestling<br><span>S01E03</span>"
-    ]; 
-
-      function Lets_Play() { 
-        down.innerHTML =  arr[Math.floor(Math.random() * arr.length)]; 
-      }  
-    </script>
-  </body>
 </html>
