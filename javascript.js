@@ -1,17 +1,83 @@
 var down = document.getElementById('topic');
 
 var arr = [
-    //"<a href='' target='_blank'></a><br><span>S02E0</span>",
-    //"<br><span>S02E0</span>",
+    //"<a href='' target='_blank'></a><br><span>S03E0</span>",
+    //"<br><span>S03E0</span>",
     
+    //SEASON 03 EPISODE 05
+
+
+    //SEASON 03 EPISODE 04
+    "<a href='https://www.imdb.com/title/tt13612162/' target='_blank'>The Mario Lopez/KFC/Lifetime Collaboration</a><br><span>S03E04</span>",
+    "<a href='https://twitter.com/harrietmould/status/1331890921277943808?s=21' target='_blank'>Nonsense Lyrics In Songs</a><br><span>S03E04</span>",
+    "<a href='https://www.indiegogo.com/projects/jabii-the-future-exercise-game' target='_blank'>Jabbi</a><br><span>S03E04</span>",
+    "Taxidermy<br><span>S03E04</span>",
+
+    //SEASON 03 EPISODE 03
+    "Christmas Laser Lights<br><span>S03E03</span>",
+    "Inflatable Christmas Decorations<br><span>S03E03</span>",
+    "White Elephant/Yankee Swap Gift Exchanges<br><span>S03E03</span>",
+    "<a href='https://ebay.us/7sA46g' target='_blank'>Men's Nightgowns</a><br><span>S03E03</span>",
+    "<a href='https://www.16personalities.com/' target='_blank'>Personality Tests</a><br><span>S03E03</span>",
+    "<a href='https://www.buzzfeed.com/laurengarafano/which-office-character-are-you' target='_blank'>BuzzFeed Quizes</a><br><span>S03E03</span>",
+    
+
+    //SEASON 03 EPISODE 02
+    "The New Jeopardy Host<br><span>S03E02</span>",
+    "DJs Who Stream on Twitch<br><span>S03E02</span>",
+    "<a href='https://spiritless.com/products/kentucky-74' target='_blank'>Kentucky 74 Spiritless Bourbon</a><br><span>S03E02</span>",
+    "<a href='https://eterneva.com/pets' target='_blank'>Turning Your Pet Into a Diamond</a><br><span>S03E02</span>",
+
+
+    //SEASON 03 EPISODE 01
+    "Holiday Creep<br><span>S03E01</span>",
+    "House Shoes<br><span>S03E01</span>",
+    "<a href='https://www.23andme.com/' target='_blank'>23andMe</a><br><span>S03E01</span>",
+    "<a href='https://www.canyon.com/en-de/e-bikes/future-mobility-concept.html' target='_blank'>The Canyon Future Mobility Project</a><br><span>S03E01</span>",
+
     //SEASON 02 EPISODE 12
+    "Wearing a Halloween Costume to Work<br><span>S02E12</span>",
+    "Non-Candy Halloween Treats<br><span>S02E12</span>",
+    "<a href='https://youtu.be/s7oPREq3i-I' target='_blank'>David Bowie Biopic without Bowie Music</a><br><span>S02E12</span>",
+    "<a href='https://hugsleep.com/products/sleep-pod' target='_blank'>The Hug Sleep Sleep Pod</a><br><span>S02E12</span>",
+
     //SEASON 02 EPISODE 11
+    "<a href='https://higherdose.com/products/infrared-sauna-blanket-v3' target='_blank'>Sauna Blankets</a><br><span>S02E11</span>",
+    "<a href='https://www.delish.com/cooking/recipe-ideas/recipes/a55777/pickle-pizza-recipe/' target='_blank'>Pickle Pizza</a><br><span>S02E11</span>",
+    "Meditation<br><span>S02E11</span>",
+    "Bleu Cheese<br><span>S02E11</span>",
+
     //SEASON 02 EPISODE 10
+    "Believing in Ghosts<br><span>S02E10</span>",
+    "Mustaches<br><span>S02E10</span>",
+    "Pumpkin Spice Everything<br><span>S02E10</span>",
+    "<a href='https://earthsider.com/products/zero-waste-reusable-swab' target='_blank'>Reusable Cotton Swabs</a><br><span>S02E0</span>",
+
     //SEASON 02 EPISODE 09
+    "Film Tropes<br><span>S02E09</span>",
+    "Haunted Houses<br><span>S02E09</span>",
+    "Halloween Costumes for Pets<br><span>S02E09</span>",
+    "<a href='https://mossandfog.com/the-worlds-most-expensive-potato-chips-will-run-you-15-per-chip/' target='_blank'>$15 Potato Chip</a><br><span>S02E09</span>",
+
     //SEASON 02 EPISODE 08
+    "<a href='https://www.google.com/amp/s/www.dailymail.co.uk/news/article-8750675/amp/Bridezilla-slammed-offering-wedding-guests-better-food-depending-cash-gifts.html' target='_blank'>Wedding Menu Proportionate to Gift</a><br><span>S02E08</span>",
+    "<a href='https://www.vanityfair.com/style/2020/09/louis-vuitton-luxury-covid-face-shield' target='_blank'>Couture Face Masks</a><br><span>S02E08</span>",
+    "<a href='https://www.getproper.com/' target='_blank'>Sleep Coaches</a><br><span>S02E08</span>",
+    "Buying a Used Mattress<br><span>S02E08</span>",
+
     //SEASON 02 EPISODE 07
+    "<a href='https://www.amazon.com/dp/B00UWWC4QY/ref=cm_sw_r_cp_api_fab_bvwAFb7HRJNDW' target='_blank'>Ironic Product Reviews</a><br><span>S02E07</span>",
+    "<a href='https://news.dunkindonuts.com/news/harpoon-dunkin-new-coffee-donut-beers' target='_blank'>Dunkin\' Donuts Flavored Beer</a><br><span>S02E07</span>",
+    "<a href='https://www.cnn.com/travel/amp/flights-to-nowhere-qantas/index.html' target='_blank'>A Flight to Nowhere</a><br><span>S02E07</span>",
+    "<a href='https://chipotlegoods.com/' target='_blank'>Chipotle Branded Clothing</a><br><span>S02E07</span>",
+
     //SEASON 02 EPISODE 06
-    
+    "Saunas<br><span>S02E06</span>",
+    "Chicago Style Pizza<br><span>S02E06</span>",
+    "<a href='https://youtu.be/c9TACAdTiCc' target='_blank'>Class Action Park</a><br><span>S02E06</span>",
+    "<a href='https://www.forbes.com/sites/katedingwall/2020/08/27/busch-has-launched-a-beer-for-dogs/' target='_blank'>Busch Dog Brew</a><br><span>S02E06</span>",
+
+
     //SEASON 02 EPISODE 05
     "<a href='https://www.rottentomatoes.com/' target='_blank'>Rotten Tomatoes</a><br><span>S02E05</span>",
     "<a href='https://www.npr.org/2020/08/03/898496911/99-year-old-pilot-is-going-the-distance-for-2-world-records' target='_blank'>99 Year Old Pilots</a><br><span>S02E05</span>",
