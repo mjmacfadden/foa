@@ -48,7 +48,7 @@ var arr = [
     "<a href='https://www.sportscasting.com/can-nba-players-actually-see-and-hear-the-virtual-fans/' target='_blank'>Virtual Fans</a><br><span>S01E10</span>",
     
     //SEASON 01 EPISODE 09
-    "Compulsor Voting<br><span>S01E09</span>",
+    "Compulsory Voting<br><span>S01E09</span>",
     "<a href='https://www.instagram.com/explore/tags/vanlife/' target='_blank'>#Vanlife</a><br><span>S01E09</span>",
     "Adults Who Play with Legos<br><span>S01E09</span>",
     "Living Forever<br><span>S01E09</span>",
