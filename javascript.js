@@ -166,4 +166,18 @@ var arr = [
 
 function Lets_Play() {
     down.innerHTML = arr[Math.floor(Math.random() * arr.length)];
+    document.getElementById("percent").innerHTML = " ";
+    var For = document.getElementById("for");
+    var Against = document.getElementById("against");
+    For.classList.add("foa_button_show");
+    Against.classList.add("foa_button_show");
+}
+
+
+
+
+function foa_Play() {
+    var percentage = Math.floor(Math.random() * 100) + 1;;
+    var This = percentage + "%";
+    document.getElementById("percent").innerHTML = This;
 }

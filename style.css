@@ -83,7 +83,7 @@ h1 span{
     color:white;
 }
 h2 {
-    margin: 100px 0 50px 0;
+    margin: 50px 0 50px 0;
 }
 
 h2 span{
@@ -95,7 +95,15 @@ a:visited,
 a:active{
     color:#000000;
 }
-button {
+.foa_button{
+    width:80px;
+    margin:0 10px 30px 10px;
+    display:none;
+}
+.foa_button_show{
+    display:inline;
+}
+#play_button {
     background-color: #000000;
     color: #FFFFFF;
     font-size: 28px;
