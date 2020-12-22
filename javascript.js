@@ -5,7 +5,10 @@ var arr = [
     //"<br><span>S03E0</span>",
     
     //SEASON 03 EPISODE 05
-
+    "Direct to Streaming Movies<br><span>S03E05</span>",
+    "Cursing<br><span>S03E05</span>",
+    "Going to the Mall<br><span>S03E05</span>",
+    "Christmas Newsletters<br><span>S03E05</span>",
 
     //SEASON 03 EPISODE 04
     "<a href='https://www.imdb.com/title/tt13612162/' target='_blank'>The Mario Lopez/KFC/Lifetime Collaboration</a><br><span>S03E04</span>",
@@ -164,20 +167,41 @@ var arr = [
     "Sourdough Breadmaking<br><span>S01E01</span>"
 ];
 
+var x = 0;
+var For = document.getElementById("for");
+var Against = document.getElementById("against");
+
 function Lets_Play() {
     down.innerHTML = arr[Math.floor(Math.random() * arr.length)];
     document.getElementById("percent").innerHTML = " ";
-    var For = document.getElementById("for");
-    var Against = document.getElementById("against");
+    var Play = document.getElementById("play_button");
+    Play.innerHTML = "NEXT";
     For.classList.add("foa_button_show");
     Against.classList.add("foa_button_show");
+    x = 1;
+    For.classList.remove("pressed");
+    Against.classList.remove("pressed");
+}
+
+function foa_for(){
+    if (x == 1){
+        For.classList.add("pressed");
+        x = 0;
+    }
+}
+
+function foa_against(){
+    if (x == 1){
+        Against.classList.add("pressed");
+        x = 0;
+    }
 }
 
 
-
-
 function foa_Play() {
-    var percentage = Math.floor(Math.random() * 100) + 1;;
-    var This = percentage + "%";
-    document.getElementById("percent").innerHTML = This;
+    if (x == 1){
+        var percentage = Math.floor(Math.random() * 78) + 22;;
+        var This = percentage + "%";
+        document.getElementById("percent").innerHTML = This;
+    }
 }
