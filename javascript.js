@@ -200,8 +200,8 @@ function foa_against(){
 
 function foa_Play() {
     if (x == 1){
-        var percentage = Math.floor(Math.random() * 78) + 22;;
-        var This = percentage + "%";
+        var percentage = Math.floor(Math.random() * 75) + 1;;
+        var This = percentage+15 + "%";
         document.getElementById("percent").innerHTML = This;
     }
 }
