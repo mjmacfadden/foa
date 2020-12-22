@@ -102,6 +102,13 @@ a:visited,
 a:active{
     color:#000000;
 }
+
+.instructions{
+    position:absolute;
+    top:-25px;
+    right:10px;
+}
+
 .foa_button{
     width:80px;
     margin:0 0 40px 0;
