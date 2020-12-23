@@ -11,7 +11,7 @@ var arr = [
     "Christmas Newsletters<br><span>S03E05</span>",
 
     //SEASON 03 EPISODE 04
-    "<a href='https://www.imdb.com/title/tt13612162/' target='_blank'>The Mario Lopez/KFC/Lifetime Collaboration</a><br><span>S03E04</span>",
+    "<a href='https://www.imdb.com/title/tt13612162/' target='_blank'>Recipe for Seduction</a><br><span>S03E04</span>",
     "<a href='https://twitter.com/harrietmould/status/1331890921277943808?s=21' target='_blank'>Nonsense Lyrics In Songs</a><br><span>S03E04</span>",
     "<a href='https://www.indiegogo.com/projects/jabii-the-future-exercise-game' target='_blank'>Jabbi</a><br><span>S03E04</span>",
     "Taxidermy<br><span>S03E04</span>",
@@ -181,6 +181,7 @@ function Lets_Play() {
     x = 1;
     For.classList.remove("pressed");
     Against.classList.remove("pressed");
+    window.navigator.vibrate(200);
 }
 
 function foa_for(){
@@ -197,11 +198,28 @@ function foa_against(){
     }
 }
 
-
 function foa_Play() {
     if (x == 1){
         var percentage = Math.floor(Math.random() * 75) + 1;;
         var This = percentage+15 + "%";
         document.getElementById("percent").innerHTML = This;
     }
+}
+
+var Inst = document.getElementById("instructions");
+var Game = document.getElementById("game");
+
+function instruct(){    
+    Inst.classList.add("show");
+    Inst.classList.remove("hide");
+    Game.classList.add("hide");
+    Game.classList.remove("show");
+}
+
+function no_instruct(){
+    Inst.classList.remove("show");
+    Inst.classList.add("hide");
+    Game.classList.add("show");
+    Game.classList.remove("hide");
+
 }

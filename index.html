@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <!-- Apple and Andriod home screen icons -->
@@ -48,9 +48,22 @@
 </head>
 
 <body>
+    <div id="instructions" class="directions hide">
+        <div class="wrapper">
+            <i class="fas fa-times-circle instructions" onclick="no_instruct();"></i>
+            <h4>Directions</h4>
+            <p class="text">In most cases, this game should be played non competitively. Click the play/next button to present a topic from the show. Then, take turns analyzing, discussing, and arguing about that topic to form an opinion whether you are for or against that topic. If you’re unfamiliar with the subject matter, click the underlined topic to follow a link to learn more.</p>
+            <p class="text">Once you’ve formed an opinion, let us know your position by tapping the For or Against button.</p>
+            <p class="text">If you must play this competitively, find a minimum of two other players (a game for friends), and follow the directions above. When one person finds themselves undecided, the others must make their case. After hearing from the other players, the undecided player must then form an opinion. Whichever position the previously undecided player chooses awards a point to each member who holds the same position.</p>
+            <p class="text">Keep a running tally until you realize that playing competitively isn’t really that fun.</p>
+        </div>
 
-    <div class="wrapper">
-        <a href="http://fororagainstpod.com/play"><i class="fas fa-info-circle instructions"></i></a>
+    </div>
+    
+    <div class="wrapper" id="game">
+
+        <i class="fas fa-info-circle instructions" onclick="instruct();"></i>
+
         <h1>FOR OR <br><span>AGAINST</span></h1>
         <h2 id="topic">
             Ready?<br><span>click to play</span>
@@ -74,6 +87,7 @@
         </div>
 
     </div>
+
     <script src="javascript.js"></script>
 </body>
 

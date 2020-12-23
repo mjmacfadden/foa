@@ -68,18 +68,15 @@ body{
 h1, h2, h3, h4, h5, h6, p, ul, ol, button{
     font-family: 'Open Sans', sans-serif;
 }
-p, button{
 
-}
 h1 {
-    margin-top: 50px;
     font-size:48px;
     font-family: 'Archivo Black', sans-serif;
     background-image:url('img/marker.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    padding:20px 0; 
+    padding:25px 0; 
 }
 h1 span{
     color:white;
@@ -94,32 +91,43 @@ h2 span{
     font-size:24px;
 }
 h3{
-    margin-bottom:20px;
+    margin-bottom:10px;
     height:32px;
+    font-weight:700;
 }
+h4{
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:24px;
+}
+
 a,
 a:visited,
 a:active{
     color:#000000;
 }
 
-.instructions{
-    position:absolute;
-    top:-25px;
-    right:10px;
-}
-
 .foa_button{
-    width:80px;
-    margin:0 0 40px 0;
+    width:90px;
+    font-size:16px;
+    margin:0 0 30px 0;
     display:none;
     background:#E5E5E5;
     border-radius:5px;
     border:1px solid #5d5d5d;
     padding:5px;
     color:#272727;
+    font-weight:700;
+    transition:background-color .125s;
+    cursor:pointer;
 }
-.pressed{
+.foa_button:hover{
+    background:#d4d4d4;
+}
+.foa_button:active{
+    background:#c5c5c5;
+}
+.pressed, .pressed:hover{
     background:#ffe991;
 }
 .foa_button_show{
@@ -144,6 +152,13 @@ a:active{
     padding: 7px 25px;
     border-radius: 5px;
     margin-bottom:30px;
+    cursor:pointer;
+}
+#play_button:hover {
+    background:#0a0a0a;
+}
+#play_button:active {
+    background:#000000;
 }
 button:active, 
 button:focus { 
@@ -173,7 +188,7 @@ button:focus {
     max-width:600px;
     margin:0 auto;
     position:relative;
-    padding:0 10px;
+    padding:50px 10px 0 10px;
 }
 .footer{
     position:absolute;
@@ -197,3 +212,42 @@ button:focus {
     text-shadow: 0 0 20px #fff, 0 0 30px #ffa600, 0 0 40px #ffa600, 0 0 50px #ffa600, 0 0 60px #ffa600, 0 0 70px #ffa600, 0 0 80px #ffa600;
   }
 }
+
+/*
+=================================================
+DIRECTIONS
+=================================================
+*/
+#game{
+    transition:opacity 1s;
+}
+.instructions{
+    position:absolute;
+    top:10px;
+    right:10px;
+    cursor:pointer;
+}
+
+.directions{
+    width:100%;
+    height:100%;
+    background:#FFFFFF;
+    position:absolute;
+    top:0;
+    transition:opacity .5s;
+}
+.hide{
+    opacity:0;
+    z-index:0;
+}
+ .show{
+    opacity: 1;
+    z-index:1;
+ }
+ .text{
+     font-weight:100;
+     text-align:left;
+     margin:10px 20px;
+     line-height:32px;
+ }
+
