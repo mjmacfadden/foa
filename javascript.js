@@ -181,7 +181,7 @@ function Lets_Play() {
     x = 1;
     For.classList.remove("pressed");
     Against.classList.remove("pressed");
-    window.navigator.vibrate(200);
+    navigator.vibrate(200);
 }
 
 function foa_for(){
