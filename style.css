@@ -235,6 +235,7 @@ DIRECTIONS
     position:absolute;
     top:0;
     transition:opacity .5s;
+    overflow:auto;
 }
 .directions .wrapper{
     padding-top:30px;
