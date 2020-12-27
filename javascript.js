@@ -4,6 +4,12 @@ var arr = [
     //"<a href='' target='_blank'></a><br><span>S03E0</span>",
     //"<br><span>S03E0</span>",
     
+    //SEASON 03 EPISODE 06
+    "New Year's Resolutions<br><span>S03E06</span>",
+    "Fantasy Sports<br><span>S03E06</span>",
+    "<a href='https://www.timeout.com/chicago/music/julians-2020-nye-house-party-at-the-drive-in' target='_blank'>Drive-In Entertainment</a><br><span>S03E0</span>",
+    "<a href='https://6abc.com/wisconsin-raw-meat-sandwich-health-warning-against-beef-cannibal-tiger/8897921/' target='_blank'>Raw Meat Sandwiches</a><br><span>S03E06</span>",
+
     //SEASON 03 EPISODE 05
     "Direct to Streaming Movies<br><span>S03E05</span>",
     "Cursing<br><span>S03E05</span>",
